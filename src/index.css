@@ -66,8 +66,8 @@ select {
 input:focus,
 select:focus {
   outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+  border-color: rgb(104, 162, 104);
+  box-shadow: 0 0 3px rgb(104, 162, 104);
 }
 
 button[type="submit"] {

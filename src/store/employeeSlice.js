@@ -6,10 +6,10 @@ const employeeSlice = createSlice({
   reducers: {
     addEmployee: (state, action) => {
       state.push({
-        firstName: action.payload.firstName, // Nom correct depuis la payload
-        lastName: action.payload.lastName, // Nom correct depuis la payload
-        dateOfBirth: action.payload.dateOfBirth, // Date de naissance sérialisée
-        startDate: action.payload.startDate, // Date d'embauche sérialisée
+        firstName: action.payload.firstName,
+        lastName: action.payload.lastName,
+        dateOfBirth: action.payload.dateOfBirth,
+        startDate: action.payload.startDate,
         street: action.payload.street,
         city: action.payload.city,
         state: action.payload.state,
